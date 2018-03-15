@@ -6,7 +6,7 @@
 }
 /*css for footer padding and margin*/
 #footer {
-  background: #e0e0e0;
+  background: #82b8e5;
   padding: 20px 0;
   margin-top:20px;
 }
@@ -17,7 +17,7 @@
 }
 /*css for unorderlist that present in a tag*/
 #footer ul a {
-  color: #999999;
+  color: #FFFFFF;
 }
 /*css for footer social icon*/
 #footer .social {

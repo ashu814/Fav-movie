@@ -7,8 +7,13 @@
 .card-text{
 	font-family: Playfair Display;
 }
-
+/*css for total no. of movies message*/
 h4{
-	
-	font-family: Shrikhand;
+font-family: Shrikhand;
+}
+/*css for card shadow*/
+.card{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #888888;
 }
