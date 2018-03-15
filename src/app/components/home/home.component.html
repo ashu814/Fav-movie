@@ -9,6 +9,8 @@
 <h4 class="text-center"> Total Favourite Movies Added : {{favMovies.length}}</h4>
 <h4 *ngIf="showError">{{errorMsg}}</h4>
 
+
+
 <!-- Card layout for showing searched movies-->
 <div class="container py-3" *ngFor="let movie of movies">
 <div class="card">
@@ -19,9 +21,9 @@
     <div class="col-md-9 px-2">
     <div class="card-block px-2 py-3">
       <h5 class="card-title">{{movie.title}}</h5>
-      <p class="card-text">Overview:&nbsp;{{movie.overview}}</p>
+      <p class="card-text"><strong>Overview:</strong>&nbsp;{{movie.overview}}</p>
       <p class="card-text"></p>
-      <p class="card-text">Rating: {{movie.vote_average}}</p>
+      <p class="card-text"><strong>Rating:</strong> {{movie.vote_average}}</p>
       <a class="btn btn-primary" (click)="addToFavorite(movie)" >Add to favourite</a>
      </div>
    </div>
